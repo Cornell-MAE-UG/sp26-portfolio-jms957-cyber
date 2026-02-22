@@ -13,7 +13,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : Johanna Stuard
 description              : Johanna Stuard - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+baseurl                  : "/sp26-portfolio-jms957-cyber" # Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal

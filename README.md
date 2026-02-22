@@ -91,13 +91,7 @@ skin: aqua
 ```
 Make any other changes you would like to your portfolio. You can edit the `sass/custom.scss` file to change colors, fonts, and other styling options.
 
-### Commit Your Changes
 
-After making changes, remember to commit them often to save your progress. In the terminal, run the following commands:
-
-```bash
-git add .
-git commit -m "<Commit Message>"
 ```
 
 Write a meaningful commit message that describes the changes you made.

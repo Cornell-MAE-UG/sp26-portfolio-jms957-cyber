@@ -1,0 +1,689 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>The Spotted Lanternfly is moving West, South, and sometimes North and East</title>
+  <meta name="description" content="Coming Soon to a Vineyard Near You!">
+  <meta name="keywords" content="wine,news,wine industry,wine jobs,barrels,corks,winery,grapes,wine business,vines,vineyard,viticulture,enology">
+  <meta name="robots" content="index,follow">
+  <link rel="shortcut icon" href="/includes/img/fav/favicon.ico">
+  <link rel="apple-touch-icon" sizes="76x76" href="/includes/img/icon/wb/touch-icon-ipad.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/includes/img/icon/wb/touch-icon-iphone-retina.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/includes/img/icon/wb/touch-icon-ipad-retina.png">
+  <link rel="shortcut icon" sizes="196x196" href="/includes/img/icon/wb/touch-icon-android.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/includes/css/wb-core.css?v=20240322_1" />
+  <meta property="og:title" content="The Spotted Lanternfly is moving West, South, and sometimes North and East"/>
+  <meta property="og:image" content="https://www.winebusiness.com/includes/img/wineBusiness_og_1200x630.png"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:description" content="Coming Soon to a Vineyard Near You!"/>
+  <link rel="canonical" href="https://www.winebusiness.com/news/article/242392" />
+  
+  <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M46LBC2');</script>
+<!-- End Google Tag Manager -->
+
+</head>
+
+<body id="wb-body">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M46LBC2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="wb-container" class="container-xl">
+
+  <div class="row">
+
+    <div class="col">
+
+      <div class="row">
+
+        <div id="wb-ctrl-col" v-cloak>
+
+          
+<div id="wb-ctrl-col-tablet-top" class="col">
+  <div id="wb-ctrl-tablet-row-1" class="row">
+    <div class="col-6 pr-1 py-2">
+      <div class="wb-ctrl-top-head-logo">
+        <a href="/"><img src="/includes/img/wb-logo-md-2.png" alt="Wine Business"></a>
+      </div>
+    </div>
+    <div class="col-6 d-flex">
+      <div class="align-self-center" style="font-size:.7rem" v-text="tDateStr.toUpperCase()"></div>
+    </div>
+    <div class="col-12 px-0 d-flex align-items-stretch">
+      <div class="flex-grow-1">
+        <form action="/search/" method="get">
+          <div class="input-group">
+            <input type="text" name="q" class="form-control wb-edge" placeholder="search" aria-label="search" aria-describedby="wb-button-search-tab" style="border:0px;" max-length="50" required>
+            <div class="input-group-append">
+              <button class="btn btn-info wb-edge" type="submit" id="wb-button-search-tab"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="wb-ctrl-tablet-nav-ham" @click="navToggle">
+        <div class="wb-ham-bar1" :class="navOpen ? 'navOpen':'navClosed'"></div>
+        <div class="wb-ham-bar2" :class="navOpen ? 'navOpen':'navClosed'"></div>
+        <div class="wb-ham-bar3" :class="navOpen ? 'navOpen':'navClosed'"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="wb-ctrl-tablet-row-2" class="row align-items-center">
+    <div class="col-9">
+      <div v-if="userInfo.isUser">
+        <h6 class="wb-ctrl-top-name font-weight-light"><a id="wb-user-acct-link-tb" class="wb-white" href="javascript:void(0)" style="text-decoration:none;" v-html="'Welcome back ' + userInfo.data.fname + ' <i class=&quot;ml-1 fas fa-user&quot;></i>'"></a></h6>
+        <b-popover
+          target="wb-user-acct-link-tb"
+          triggers="hover click blur"
+          placement="bottom"
+          ref="popover"
+        >
+          <template #title>
+            <div class="d-flex flex-row my-2">
+              <div class="pr-2"><i class="fas fa-user-circle fa-2x"></i></div>
+              <div class="pl-2 wb-text-xs">
+                <strong>{{userInfo.data.fname}} {{userInfo.data.lname}}</strong><br />
+                <span class="text-muted">{{userInfo.data.company}}</span><br />
+                <a href="/acct/ua/signin/?rn=edit-details&ru=https%3A%2F%2Fwww.winebusiness.com%2Fnews%2Farticle%2F242392%2F">Account Info</a>
+              </div>
+            </div>
+          </template>
+          <div class="py-2 text-center">
+            <a href="/acct/ua/signout?ru=https%3A%2F%2Fwww.winebusiness.com%2Fnews%2Farticle%2F242392%2F" v-text="'Sign out'"></a>
+           </div>
+        </b-popover>
+      </div>
+      <div class="wb-ctrl-col-opts d-flex flex-row justify-content-start" v-else>
+        <div class="pr-3"><h6 class="font-weight-light pt-2" v-text="'Already a member?'"></h6></div>
+        <div class="pt-1">
+          <a class="btn btn-primary btn-wb-xs" href="/acct/ua/signin/?ru=https%3A%2F%2Fwww.winebusiness.com%2Fnews%2Farticle%2F242392%2F">Sign In</a>
+        </div>
+      </div>
+    </div>
+    <div class=" col-9" v-if="userInfo.isUser">
+      <div class="wb-ctrl-col-custom-links">
+        <div class="flex-fill text-center"><a id="wb-custom-link-1-tb" href="https://www.winebusiness.com/profiles/?ref=wbhome">MY PROFILE</a></div>
+        <div class="flex-fill text-center"><a id="wb-custom-link-2-tb" href="https://www.winebusiness.com/usr/acct/activity/winejobs">MY WINEJOBS</a></div>
+        <div class="flex-fill text-center"><a id="wb-custom-link-3-tb" href="/newsletters">NEWSLETTERS</a></div>
+      </div>
+    </div>
+    <div class="col-6" v-if="userInfo.isUser">
+      
+    </div>
+    <div class="col-14" v-if="!userInfo.isUser">
+      <div style="font-size:.85rem">
+        <span class="pr-2 font-weight-bolder">Not a member?  <a href="/acct/ua/register/?ru=https%3A%2F%2Fwww.winebusiness.com%2Fnews%2Farticle%2F242392%2F">Create an Account</a></span><br />
+        <span class="font-weight-light">Members receive Daily News Email FREE. Join 30,000+ daily readers.</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div id="wb-ctrl-top">
+
+  <div class="wb-ctrl-col-opts">
+    <div id="wb-ctrl-top-head" class="d-flex">
+      <div class="wb-ctrl-top-head-logo flex-grow-1">
+        <a href="/"><img src="/includes/img/wb-logo-md-2.png" alt="Wine Business" class="d-block mx-auto"></a>
+        <h6 class="text-center">The Homepage for the Wine Industry</h6>
+      </div>
+      <div class="wb-ctrl-top-head-nav" :class="{'d-lg-none':!isDeskTopNav}" @click="navToggle">
+        <div class="wb-ham-bar1" :class="navOpen ? 'navOpen':'navClosed'"></div>
+        <div class="wb-ham-bar2" :class="navOpen ? 'navOpen':'navClosed'"></div>
+        <div class="wb-ham-bar3" :class="navOpen ? 'navOpen':'navClosed'"></div>
+      </div>
+    </div>
+    <div id="wb-ctrl-top-date" class="wb-h-rule-ctrl-col" v-text="tDateStr.toUpperCase()"></div>
+  </div>
+
+  <div id="wb-ctrl-top-custom" class="">
+    <div class="mt-3" v-if="userInfo.isUser">
+      <h5 class="wb-ctrl-top-name font-weight-light"><a id="wb-user-acct-link" class="wb-white" href="javascript:void(0)" style="text-decoration:none;" v-html="'Welcome back ' + userInfo.data.fname + ' <i class=&quot;ml-1 fas fa-user&quot;></i>'"></a></h5>
+      <b-popover
+        target="wb-user-acct-link"
+        triggers="hover click blur"
+        placement="bottom"
+        ref="popover"
+      >
+        <template #title>
+          <div class="d-flex flex-row my-2">
+            <div class="pr-2"><i class="fas fa-user-circle fa-2x"></i></div>
+            <div class="pl-2 wb-text-xs">
+              <strong>{{userInfo.data.fname}} {{userInfo.data.lname}}</strong><br />
+              <span class="text-muted">{{userInfo.data.company}}</span><br />
+              <a href="/acct/ua/signin/?rn=edit-details&ru=https%3A%2F%2Fwww.winebusiness.com%2Fnews%2Farticle%2F242392%2F">Account Info</a>
+            </div>
+          </div>
+        </template>
+        <div class="py-2 text-center">
+          <a href="/acct/ua/signout?ru=https%3A%2F%2Fwww.winebusiness.com%2Fnews%2Farticle%2F242392%2F" v-text="'Sign out'"></a>
+        </div>
+      </b-popover>
+    </div>
+    <div class="mt-2 mb-0 mb-lg-1 wb-ctrl-col-opts d-flex flex-row justify-content-center"  v-if="!userInfo.isUser">
+      <div class="pr-2"><h5 class="font-weight-light pt-2" v-text="'Already a member?'"></h5></div>
+      <div class="pt-1">
+        <a class="btn btn-primary btn-wb-xs" href="/acct/ua/signin/?ru=https%3A%2F%2Fwww.winebusiness.com%2Fnews%2Farticle%2F242392%2F">Sign In</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-none d-lg-block">
+    <div class="wb-ctrl-top-custom-2-block">
+      <div id="wb-ctrl-top-custom-2" v-if="userInfo.isUser">
+        <div v-html="weatherCurrentObs"></div>
+        <b-tooltip target="wb-weather-link-1" custom-class="wb-text-xs" placement="bottom"><slot>Change vineyard location &amp; view forecast.</slot></b-tooltip>
+        <div class="wb-ctrl-col-custom-links">
+          <div class="flex-fill text-center"><a id="wb-custom-link-1" href="https://www.winebusiness.com/profiles/?ref=wbhome">MY PROFILE</a></div>
+          <b-tooltip target="wb-custom-link-1" custom-class="wb-text-xs" placement="bottom"><slot>View or Edit your<br />WineBusiness Profile.</slot></b-tooltip>
+          <div class="flex-fill text-center"><a id="wb-custom-link-2" href="https://www.winebusiness.com/usr/acct/activity/winejobs">MY WINEJOBS</a></div>
+          <b-tooltip target="wb-custom-link-2" custom-class="wb-text-xs" placement="bottom"><slot>Looking for a job?<br />View your Winejobs activity.</slot></b-tooltip>
+          <div class="flex-fill text-center"><a id="wb-custom-link-3" href="/newsletters">NEWSLETTERS</a></div>
+          <b-tooltip target="wb-custom-link-3" custom-class="wb-text-xs" placement="bottom"><slot>Manage your subscriptions.</slot></b-tooltip>
+        </div>
+      </div>
+      <div class="wb-ctrl-top-custom-2-promo" v-else>
+        <h6 class="text-center mb-2 font-weight-bolder">Not a member?  <a href="/acct/ua/register/?ru=https%3A%2F%2Fwww.winebusiness.com%2Fnews%2Farticle%2F242392%2F">Create an Account</a></h6>
+        <div class="text-center">Members receive a FREE subscription to the Daily News Email. Join 30,000+ daily readers.</div>
+      </div>
+    </div>
+    <form action="/search/" method="get">
+    <div id="wb-ctrl-top-search" class="input-group">
+      <input type="text" name="q" class="form-control wb-edge" placeholder="search" aria-label="search" aria-describedby="button-search" max-length="50" required>
+      <div class="input-group-append">
+        <button class="btn btn-info wb-edge" type="submit" id="wb-button-search"><i class="fas fa-search"></i></button>
+      </div>
+    </div>
+    </form>
+  </div>
+
+</div>
+
+<div id="wb-ctrl-col-nav" :style="[navStyleObj]" :class="navOpen ? 'navOpen':'navClosed'">
+
+  <div class="d-block d-sm-none">
+    <div class="wb-ctrl-top-custom-2-block">
+      <div id="wb-ctrl-top-custom-2-mobile" v-if="userInfo.isUser">
+        <div v-html="weatherCurrentObs"></div>
+        <div class="wb-ctrl-col-custom-links">
+          <div class="flex-fill text-center"><a id="wb-custom-link-1-mb" href="https://www.winebusiness.com/profiles/?ref=wbhome">MY PROFILE</a></div>
+          <div class="flex-fill text-center"><a id="wb-custom-link-2-mb" href="https://www.winebusiness.com/usr/acct/activity/winejobs">MY WINEJOBS</a></div>
+          <div class="flex-fill text-center"><a id="wb-custom-link-3-mb" href="/newsletters">NEWSLETTERS</a></div>
+        </div>
+      </div>
+      <div class="wb-ctrl-top-custom-2-promo" v-else>
+        <h6 class="text-center mb-2 font-weight-bolder">Not a member?  <a href="/acct/ua/register/?ru=https%3A%2F%2Fwww.winebusiness.com%2Fnews%2Farticle%2F242392%2F">Create an Account</a></h6>
+        <div class="text-center">Members receive a FREE subscription to the Daily News Email. Join 30,000+ daily readers.</div>
+      </div>
+    </div>
+    <div id="wb-ctrl-top-search-mobile">
+      <form action="/search/" method="get">
+      <div class="input-group">
+        <input type="text" name="q" class="form-control wb-edge" placeholder="search" aria-label="search" aria-describedby="wb-button-search-mobile" max-length="50" required>
+        <div class="input-group-append">
+          <button class="btn btn-info wb-edge" type="submit" id="wb-button-search-mobile"><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="pt-3 wb-ctrl-col-opts wb-ctrl-col-nav-items">
+    <a href="/">HOME</a>
+    <a href="/news">NEWS</a>
+    <a href="/classifieds/winejobs">WINEJOBS</a>
+    <a href="/classifieds/grapesbulkwine">GRAPES &amp; BULK WINE</a>
+    <a href="https://winebusinessanalytics.com/">ANALYTICS</a>
+    <a href="/events/">EVENTS</a>
+    <a href="https://winebusinessanalytics.com/buyersguide/">BUYER'S GUIDE</a>
+    <a href="/wbm">WINEBUSINESS MONTHLY</a>
+  </div>
+
+  <div class="mx-auto pt-5">
+    <a href="/calculator/winemaking/"><img src="/includes/img/wm_calc.png" alt="Winemaking Calculators" style="width:100%;"></a>
+  </div>
+
+  
+    <div class="pt-5 mx-auto wb-ctrl-col-opts text-center">
+      <a href="/wbm/"><img src="/content/image/publicationissuecovers/wbm_cover_2026-2-1.jpg" alt="Wine Business Monthly Feb 1, 2026 Issue" style="width:300px;"></a>
+      <div class="pt-3 text-center">
+        <h6 class="mb-1 font-weight-bold">WINEBUSINESS MONTHLY</h6>
+        <p class="mb-2 small font-weight-lighter wb-line-height-base">The Industry's Leading Publication for Wineries and Growers</p>
+        <div class="mt-2 small font-weight-bold"><a href="/subscribe/wbm/?ref=wb_l_col">SUBSCRIBE/RENEW</a> | <a href="/company/mediakit/">ADVERTISE</a></div>
+      </div>
+    </div>
+  
+
+  <div class="py-3"></div>
+
+</div>
+
+<div id="wb-ctrl-col-scroll">
+
+  <div class="wb-ctrl-col-opts wb-ctrl-col-nav-items">
+    <a href="/">HOME</a>
+    <a href="/news">NEWS</a>
+    <a href="/classifieds/winejobs">WINEJOBS</a>
+    <a href="/classifieds/grapesbulkwine">GRAPES &amp; BULK WINE</a>
+    <a href="https://winebusinessanalytics.com/">ANALYTICS</a>
+    <a href="/events/">EVENTS</a>
+    <a href="https://winebusinessanalytics.com/buyersguide/">BUYER'S GUIDE</a>
+    <a href="/wbm">WINEBUSINESS MONTHLY</a>
+  </div>
+
+  <div class="pt-5 wb-ctrl-col-opts">
+    <div id="div-wb-ad-0" class="wb-ad-300x250 mx-auto"></div>
+  </div>
+
+  
+    <div class="pt-5 mx-auto wb-ctrl-col-opts">
+      <a href="/wbm/"><img src="/content/image/publicationissuecovers/wbm_cover_2026-2-1.jpg" alt="Wine Business Monthly Feb 1, 2026 Issue" style="width:300px;"></a>
+      <div class="pt-3 text-center">
+        <h6 class="mb-1 font-weight-bold">WINEBUSINESS MONTHLY</h6>
+        <p class="mb-2 small font-weight-lighter wb-line-height-base">The Industry's Leading Publication for Wineries and Growers</p>
+        <div class="mt-2 small font-weight-bold"><a href="/subscribe/wbm/?ref=wb_l_col">SUBSCRIBE/RENEW</a> | <a href="/company/mediakit/">ADVERTISE</a></div>
+      </div>
+    </div>
+  
+
+  <div class="mx-auto pt-5">
+    <a href="/calculator/winemaking/"><img src="/includes/img/wm_calc.png" alt="Winemaking Calculators"></a>
+  </div>
+
+  <div class=" pb-3"></div>
+
+</div>
+
+<div id="wb-ctrl-col-sticky">
+  <div id="div-wb-ad-1" class="wb-ad-300x250 mt-3 mx-auto"></div>
+</div>
+
+        </div>
+
+        <div class="col" id="wb-col-content" v-cloak>
+
+          
+
+<div class="wb-sub-nav-block-container">
+  <div class="wb-sub-nav-block">
+    <div class="wb-sub-nav-block-title"><h3 class="mb-0"><a href="/news/" class="wb-white">NEWS</a></h3></div>
+    <div class="wb-sub-nav-block-content">
+      <div class="form-group mb-2" style="width:48%;">
+        <form action="/search/" method="get">
+        <label for="i_search_news" class="text-secondary wb-text-xxs mb-0">SEARCH NEWS</label>
+        <div class="input-group">
+          <input id="i_search_news" name="q" type="text" placeholder="" value="" class="form-control-xs wb-edge" aria-label="keyword search news" max-length="50" required>
+          <div class="input-group-append">
+            <button class="btn btn-xs btn-secondary" type="submit"><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+        <input type="hidden" name="hq" value="more:wbnews" />
+        </form>
+      </div>
+      <div class="form-group mb-2" style="width:48%;">
+        <label class="text-secondary wb-text-xxs mb-0">BROWSE BY TOPIC</label>
+        <b-dropdown block split variant="secondary" size="xs" menu-class="pb-2 mt-1 wb-bg-c-a">
+          <template #button-content>
+            
+              <div class="d-none">select news topic</div>
+            
+          </template>
+          <b-dropdown-item href="/news/" class="wb-dropdown-item">News Archive</b-dropdown-item>
+          <b-dropdown-item href="/news/newreleases/" class="wb-dropdown-item">New Releases</b-dropdown-item>
+          <b-dropdown-item href="/news/distributor/" class="wb-dropdown-item">Distributor News</b-dropdown-item>
+          <b-dropdown-item href="/news/people/" class="wb-dropdown-item">People News</b-dropdown-item>
+          
+          <b-dropdown-item href="/news/vendor/" class="wb-dropdown-item">Vendor News</b-dropdown-item>
+        </b-dropdown>
+      </div>
+      <div class="wb-sub-nav-link-block font-weight-light">
+        <a href="/news/region/44" class="wb-white">California</a> |
+        <a href="/news/region/115" class="wb-white">US Regions</a> |
+        <a href="/news/region/114" class="wb-white">Global Regions</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<style>
+  .article-img-figure{
+    border: 0px;
+    padding:0px;
+    margin:0px;
+  }
+  .article-img-figure figcaption{
+    padding:5px;
+  }
+</style>
+<div class="row">
+  <div class="col-sm-14 col-md-16 pr-md-0 pr-lg-3 pr-xl-0">
+    <div class="row">
+      <div class="col">
+        
+        <div class="row" v-for="(article,$index) in aArticles">
+          <div class="col">
+            <div class="row">
+              <div class="col wb-article-col">
+                <article>
+                  <figure v-if="article.lgFileUrl.length > 0" class="article-img-figure">
+                    <img :src="article.lgFileUrl" :alt="article.imgDesc" class="article-img">
+                    <figcaption v-if="article.imgCaption.length > 0" v-text="article.imgCaption"></figcaption>
+                  </figure>
+                  <img v-else-if="article.imgFileCustom != null && article.imgFileCustom.length > 0" :src="article.imgFileCustom" class="article-img-custom">
+                  <div class="wb-article-col-inner">
+                    <h6 class="font-wb-alt text-muted" v-if="article.isPressRelease === 1" v-text="'Press Release'"></h6>
+                    <h3 class="font-wb-alt" v-text="article.title"></h3>
+                    <h5 class="font-wb-alt" v-text="article.subtitle"></h5>
+                    
+                    <h6 class="mb-2 font-wb-alt" v-if="article.author.length > 0">
+                      by
+                      <span v-if="article.author.toLowerCase().indexOf('press release') === -1"><a :href="baseUrl + '/search/?sort=document-date&q=' + encodeURI(article.author)" v-text="article.author"></a></span>
+                      <span v-else v-text="article.author"></span>
+                    </h6>
+                    <div class=" d-flex justify-content-between mt-4">
+                      <div>
+                        <h6 class="font-wb-alt text-muted" v-if="article.activeDateStr.length > 0" v-text="article.activeDateStr"></h6>
+                        <h6 class="font-wb-alt text-muted" v-else-if="article.articleDateStr != null" v-text="article.articleDateStr"></h6>
+                        <h6 class="font-wb-alt text-muted" v-else v-text="article.issueDateStr"></h6>
+                      </div>
+                      <div class="d-flex justify-content-between" style="width:160px;">
+                        <a :href="'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent('https://www.winebusiness.com' + article.urlArticle)" @click="pushArticleShare($index,'facebook')" target="_blank" class="text-secondary"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a :href="'https://twitter.com/share?url=' + encodeURIComponent('https://www.winebusiness.com' + article.urlArticle) + '&text=' + encodeURIComponent(article.title) + '&redirect_uri=' + encodeURIComponent('https://www.winebusiness.com' + article.urlArticle)" @click="pushArticleShare($index,'x')" target="_blank" style="" class="text-secondary"><i class="fab fa-x-twitter fa-lg"></i></a>
+                        <a :href="'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent('https://www.winebusiness.com' + article.urlArticle)" @click="pushArticleShare($index,'linkedIn')" target="_blank" class="text-secondary"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a :href="'mailto:?subject=' + encodeURIComponent(article.title) + '&body=' + encodeURIComponent('I thought you might be interested in this article from WineBusiness Monthly:') + '%0D%0A%0D%0A' + encodeURIComponent('https://www.winebusiness.com' + article.urlArticle)" @click="pushArticleShare($index,'email')" target="_blank" style="" class="text-secondary"><i class="fas fa-envelope fa-lg"></i></a>
+                      </div>
+                    </div>
+                    <div>
+                      <div id="div-wb-ad-6" class="d-block d-sm-none wb-ad-300x250 mx-auto mt-5"></div>
+                    </div>
+                    <div v-if="article.HTMLObject.length > 0" class="mt-5 pt-4">
+                      <div class="wb-video-container">
+                        <iframe :src="article.HTMLObject" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div class="mt-5 pt-sm-2 pt-lg-4 mb-0 mb-lg-5" v-html="article.body"></div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="row" v-if="article.wbProperty && article.wbProperty == 'Compensation/Salary'">
+              <div class="col">
+                <div class="mt-4 mt-sm-0 mb-4 mx-auto p-3" style="max-width:400px; border:1px solid #000;">
+                  <div class="text-center">
+                    <h4 style="padding: 0 10px;color:#c29130;" >
+                      <strong>Winejobs<small>.com</small> CompTracker</strong>
+                    </h4>
+                    <p style="padding: 0 10px;" class="small">
+                      The <strong>Winejobs<small>.com</small> CompTracker</strong> provides compensation reports for 100+ winery jobs.
+                    </p>
+                    <div style="margin:10px 10px 5px 10px;font-size:.95rem">See the comp report for your job:</div>
+                      <a href="https://comptracker.winebusiness.com/app/" class="btn btn-sm btn-warning" style="background-color:#c29130;border-color:#c29130;white-space: normal;">Winejobs<small>.com</small> CompTracker</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="row d-block d-lg-none">
+              <div class="col">
+                  <div id="div-wb-ad-4" class="wb-ad-300x250 mx-auto my-5"></div>
+              </div>
+            </div>
+            <div class="row" v-if="article.authorbio.length > 0">
+              <div class="col">
+                <div class="wb-bg-1 small font-italic px-4 pt-4 pb-2 mt-2 mb-5">
+                  <h5 class="mb-4" v-if="article.authorbio.length > 0" v-text="article.authortitle"></h5>
+                  <div  v-html="article.authorbio"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <div v-if="objEntityData.aEntities.length > 0" class="mb-5 mb-sm-1">
+                  <h4 class="font-wb-alt text-muted mb-4">Companies mentioned in this article:</h4>
+                  <div class="py-3 text-break wb-text-color-2" v-for="e in objEntityData.aEntities">
+                    <h4 class="mb-0 font-weight-bolder" v-text="e.companyname"></h4>
+                    <div class="small" v-if="e.city.length > 0">
+                      {{e.city}}, {{e.state}} <span v-if="e.country.length > 0 && e.country !== 'USA'" v-text="e.country"></span>
+                    </div>
+                    <div class="small" v-if="e.website.length > 0"><a :href="'https://' + e.website" v-text="e.website"></a></div>
+                    <div class="small text-muted mt-2" v-if="e.introtext">
+                      <span v-text="e.introtext"></span>
+                      <span v-if="e.isBuyersGuid != 0" class="pl-2">
+                        <a :href="'http://www.winesandvines.com/buyersguide/gotolisting.html?id=' + e.entityId + '&amp;eid=' + e.entityId">learn more</a>
+                      </span>
+                    </div>
+                    <div v-if="aEntityWithData.indexOf(e.entityId) >= 0" class="my-3 wb-text-xs">
+                      <div class="my-2 font-wb-alt font-weight-bolder">More from {{e.companyname}}</div>
+                      <div v-for="r in objEntityData.aEntityData">
+                        <div v-if="r.entityid === e.entityId" class="mb-2">
+                          <div class="font-wb-alt"><a :href="baseUrl + r.urlNewsArticle" v-text="r.title"></a></div>
+                          <span v-text="r.publication"></span> &ndash;
+                          <span v-text="r.articleDateStr"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-10 col-md-8 wb-block-col-right mb-0 mb-sm-4" data-nosnippet>
+    
+
+  
+
+<div class="wb-block-col-right-item mb-4 mb-sm-2">
+  <div class="wb-bg-2 pt-4 pb-4 pb-sm-2 px-4 mb-2 mb-sm-4">
+    <div class="mb-4">
+      <div class="d-flex justify-content-start mt-3 mt-sm-0">
+        <div class="pr-2"><h4 class="mb-0">MOST POPULAR</h4></div>
+        <div>
+          <b-dropdown class="pb-2" menu-class="pb-3 mt-1 wb-dropdown-under" offset="20" size="sm" variant="wb-std-square-xs" right no-caret no-flip>
+            <template #button-content>
+              <i class="fas fa-chevron-down"></i>
+            </template>
+            <b-dropdown-item  v-for="heading in objMostPopularNews.aHeadings" href="javascript:void(0)" @click="setMostPopularNews(heading.key)" class="wb-dropdown-item">{{ heading.val }}</b-dropdown-item>
+          </b-dropdown>
+        </div>
+      </div>
+      <div class="small mt-n2" v-text="headingMostPopularNews"></div>
+    </div>
+    <div class="wb-news-item-content" v-for="(newsLink,$indx) in aMostPopularNews">
+      <h6 :id="'news-title-featured-' + newsLink.dataId" class="wb-news-header mb-0"><a :href="baseUrl + '/news/link/' + newsLink.dataId">{{newsLink.title}}</a><br /><small>{{newsLink.subtitle}}</small></h6>
+      <b-popover v-if="newsLink.summary != null" :target="'news-title-featured-' + newsLink.dataId" triggers="hover" placement="bottom" custom-class="wb-news-link-popover d-none d-lg-block" title="Summary">{{ newsLink.summary }}</b-popover>
+    </div>
+  </div>
+</div>
+    <div class="wb-block-col-right-item mt-2 mt-sm-0 mb-4">
+      <div id="div-wb-ad-3" class="wb-ad-300x250 mx-auto"></div>
+    </div>
+    <div v-if="aArticles.length > 0 && aArticles[0].wbProperty && aArticles[0].wbProperty == 'Compensation/Salary'" class="wb-block-col-right-item mt-2 mt-sm-0 mb-4 p-3" style="border:1px solid #000">
+      <div class="text-center">
+        <h4 style="padding: 0 10px;color:#c29130;" >
+          <strong>Winejobs<small>.com</small> CompTracker</strong>
+        </h4>
+        <p style="padding: 0 10px;" class="small">
+          The <strong>Winejobs<small>.com</small> CompTracker</strong> provides compensation reports for 100+ winery jobs.
+        </p>
+        <div style="margin:10px 10px 5px 10px;font-size:.95rem">See the comp report for your job:</div>
+        <a href="https://comptracker.winebusiness.com/app/" class="btn btn-sm btn-warning" style="background-color:#c29130;border-color:#c29130;white-space: normal;">Winejobs<small>.com</small> CompTracker</a>
+      </div>
+    </div>
+    <div class="wb-block-col-right-item mb-4" data-nosnippet>
+  <div class="wb-wj-col">
+    <div class="d-flex justify-content-center mt-3 mt-sm-0">
+      <div class="pr-2"><h3 class="text-center mb-0">WINEJOBS</h3></div>
+      <div class="pt-1">
+        <b-dropdown  menu-class="pb-3 mt-2 wb-dropdown-under"  offset="27" size="sm" variant="wb-alt-square" right no-caret no-flip>
+          <template #button-content>
+            <i class="fas fa-chevron-down"></i>
+          </template>
+          <b-dropdown-header>Employers</b-dropdown-header>
+          <b-dropdown-item href="https://secure.winebusiness.com/classifieds/winejobs/" class="wb-dropdown-item">Post or Edit a Job</b-dropdown-item>
+          <b-dropdown-item href="https://secure.winebusiness.com/classifieds/winejobs/" class="wb-dropdown-item">Review Your Job Applications</b-dropdown-item>
+          <b-dropdown-item href="/subscribe/hr/" class="wb-dropdown-item">Receive HR Monthly Newsletter</b-dropdown-item>
+          <b-dropdown-divider></b-dropdown-divider>
+          <b-dropdown-header>Job Seekers</b-dropdown-header>
+          <b-dropdown-item href="/classifieds/winejobs/" class="wb-dropdown-item">Search Job Listings</b-dropdown-item>
+          <b-dropdown-item href="/subscribe/wj/" class="wb-dropdown-item">Receive New Listings via Email</b-dropdown-item>
+          <b-dropdown-item href="/profiles/" class="wb-dropdown-item">Create or Edit Your Profile</b-dropdown-item>
+          <b-dropdown-item href="/usr/acct/activity/winejobs" class="wb-dropdown-item">Go to My Winejobs Account</b-dropdown-item>
+        </b-dropdown>
+      </div>
+    </div>
+    <div class="text-center small">
+      <strong>Most Recent</strong>
+      <div class="small" v-if="aWinejobs.length > 0" v-text=""><a href="/classifieds/winejobs" class="wb-white" v-text="'View all ' + aWinejobs[0].totalCount + ' Jobs'"></a></div>
+    </div>
+    <hr class="wb-hr-white mb-4">
+    <div v-for="wj in aWinejobs" class="small mb-3">
+      <div :class="wj.nocapsfirst === null ? 'text-capitalize':''">
+        <div class="text-nowrap text-truncate"><a class="wb-white" :href="'/classifieds/winejobs/?go=listing&listingid=' + wj.listingId + '&ref=wb.home'"><span v-if="wj.nocapsfirst === null">{{wj.title.toLowerCase()}}<span v-if="wj.company && wj.company.length > 0">, {{wj.company.toLowerCase()}}</span></span><span v-else>{{wj.title}}<span v-if="wj.company && wj.company.length > 0">, {{wj.company}}</span></span></a></div>
+        <div class="small font-italic text-nowrap text-truncate"><span class="text-lowercase">{{wj.dateString}}</span> | {{wj.locCity.toLowerCase()}}, {{wj.locState.toLowerCase()}}</div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-around mt-4 mb-3">
+      <div><a class="btn btn-wb-xs btn-wb-alt" href="/classifieds/winejobs/?ref=wb.home">ALL LISTINGS</a></div>
+      <div><a class="btn btn-wb-xs btn-wb-alt" href="https://secure.winebusiness.com/classifieds/winejobs/">POST A JOB</a></div>
+    </div>
+  </div>
+</div>
+    <div class="wb-block-col-right-sticky">
+      <div id="div-wb-ad-2" class="wb-ad-300x250 mx-auto"></div>
+      <div id="div-wb-ad-5" class="d-none d-sm-block d-lg-none wb-ad-300x250 mx-auto mt-4"></div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col mb-0 mb-sm-5 pb-4"></div>
+
+</div>
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div id="wb-footer-div" class="col wb-footer d-none">
+      <div class="text-center text-uppercase pb-3">
+        <a class="wb-footer-link-item" href="/wbm/">WineBusiness Monthly</a>
+        <a class="wb-footer-link-item" href="/classifieds/winejobs/?ref=wb_footer">Winejobs</a>
+        <a class="wb-footer-link-item" href="https://winebusinessanalytics.com/"><span class="d-none d-xl-inline-block">WineBusiness&nbsp;</span>Analytics</a>
+        <a class="wb-footer-link-item" href="/subscribe/dne/?ref=wb_footer">Daily News Email</a>
+        <a class="wb-footer-link-item" href="/newsletters">Newsletters</a>
+        <a class="wb-footer-link-item" href="https://winebusinessanalytics.com/buyersguide/"><span class="d-none d-xl-inline-block">WineBusiness&nbsp;</span>Buyer's Guide</a>
+      </div>
+      <div class="text-center">
+        <a class="wb-white" href="https://www.winebusiness.com"><img src="/includes/img/wb-logo-md-2.png" alt="Wine Business"></a>
+      </div>
+      <div class="text-center pb-2">
+        <h6>The Homepage for the Wine Industry</h6>
+      </div>
+      <div class="text-center pb-2">
+        <a class="wb-white d-inline-block display-4 pr-4" href="https://x.com/WineBusiness"><i class="fab fa-square-x-twitter"></i></a>
+        <a class="wb-white d-inline-block display-4 pr-4" href="https://www.instagram.com/winebusinessmonthly/"><i class="fab fa-instagram-square"></i></a>
+        <a class="wb-white d-inline-block display-4" href="https://www.linkedin.com/company/wine-business-monthly/home"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="text-center text-uppercase">
+        
+        <a class="wb-footer-link-item" href="/company/contactUs">Contact Us</a>
+        <a class="wb-footer-link-item" href="/company/aboutUs">About Us</a>
+        <a class="wb-footer-link-item" href="/company/privacy">Privacy</a>
+        <a class="wb-footer-link-item" href="/company/termsOfUse">Terms</a>
+        <a class="wb-footer-link-item" href="/company/mediaKit">Media Kit</a>
+        
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<script type="application/json" id="jsonWBAds">{"wbTopic":"vyd","wbAdPeriod":1,"wbAdSlotsArray":[{"divId":"div-wb-ad-0","aType":["desktop"],"slotName":"/1191585/news_slot_3","sizeArray":[300,250]},{"divId":"div-wb-ad-1","aType":["desktop"],"slotName":"/1191585/news_slot_4","sizeArray":[300,250]},{"divId":"div-wb-ad-2","aType":["desktop","mobile","tablet"],"slotName":"/1191585/news_slot_1","sizeArray":[300,250]},{"divId":"div-wb-ad-3","aType":["desktop","mobile","tablet"],"slotName":"/1191585/news_slot_2","sizeArray":[300,250]},{"divId":"div-wb-ad-4","aType":["mobile","tablet"],"slotName":"/1191585/news_slot_3","sizeArray":[300,250]},{"divId":"div-wb-ad-5","aType":["tablet"],"slotName":"/1191585/news_slot_4","sizeArray":[300,250]},{"divId":"div-wb-ad-6","aType":["mobile"],"slotName":"/1191585/news_slot_4","sizeArray":[300,250]}]}</script>
+
+<script src="/includes/js/wb/gpt/wb-gpt-config-0.3.min.js"></script>
+
+
+
+<script src="/includes/js/vanilla/browser-detector.js"></script>
+
+<script src="/includes/js/axios/axios.0.19.1.min.js"></script>
+<script src="/includes/js/vue/2.6.14/vue.min.js"></script>
+
+<script src="/includes/js/popper/1.16.1/popper.min.js"></script>
+<script src="/includes/js/bootstrap-vue/2.21.2/bootstrap-vue.min.js"></script>
+
+<script type="application/json" id="jsonUserData">{}</script>
+<script type="application/json" id="jsonWeatherCurrentObs">"<div class=\"wb-ctrl-top-weather-container\" xmlns:fn=\"http://www.w3.org/2005/02/xpath-functions\" xmlns=\"http://www.w3.org/1999/xhtml\">\r\n    <div class=\"wb-ctrl-top-weather-col-1\">\r\n        <div class=\"wb-ctrl-top-weather-title\">\r\n            <a id=\"wb-weather-link-1\" href=\"/weather/\" style=\"text-decoration:none;\">Vineyard Weather</a>\r\n        </div>\r\n        <div class=\"wb-ctrl-top-weather-loc text-truncate\">\r\n            <a href=\"/weather/\" class=\"wb-white\">Napa/Oakville</a>\r\n        </div>\r\n    </div>\r\n    <div class=\"wb-ctrl-top-weather-col-2\">\r\n        <div>\r\n            <h4 class=\"m-0\">51&deg;</h4>\r\n            <div class=\"wb-ctrl-top-weather-desc text-truncate\">A Few Clouds</div>\r\n        </div>\r\n    </div>\r\n    <div>\r\n        <img src=\"/img/weather/fcicons/few.png\" class=\"wb-ctrl-top-weather-img rounded\">\r\n    </div>\r\n</div>\r\n"</script>
+
+
+<script type="application/javascript">
+  var _isDeskTopNavPage = true
+  var _baseUrlApi = '/api'
+  
+  var _DateStr = 'Saturday, February 21'
+</script>
+
+<script src="/includes/js/wb/views/wb-ctrl-col-v1.2.0.min.js"></script>
+
+
+
+
+<script type="application/json" id="jsonArticle">{"authorbio":"","activeDateStr":"","dataTypeId":1,"issueLaunchDate":"March, 04 2021 00:00:00 -0800","dataType":"Article","imgDesc":"","region":"USA","issueDateGA":"2021-03-04","subtitle":"Coming Soon to a Vineyard Near You!","HTMLObject":"","section":"Daily News Articles","publicationIssueId":12669,"urlArticle":"/news/article/242392","issueDateStr":"Mar 4, 2021","custom3":"","wbTopic":"vyd","wbProperty":"Grapegrowing / Vineyard Management","publication":"WineBusiness Daily News","isPressRelease":"","lgFileUrl":"","publicationId":9,"issuedate":"March, 04 2021 00:00:00 -0800","activedate":"","imgCaption":"","dataId":242392,"wbCategory":"Grapegrowing / Vineyard Management","author":"Linda Jones McKee","publicationSectionTypeId":1,"title":"The Spotted Lanternfly is moving West, South, and sometimes North and East","body":"<figure class=\"image\"><img alt=\"\" src=\"/content/image/wb/Fig_1-SLF-Adults_w_egg_masses(1).jpg\" />\r\n<figcaption>The adult spotted lanternfly that are approximately 1&rdquo; in length give some scale to the egg masses that have been laid.</figcaption>\r\n</figure>\r\n\r\n<figure class=\"image\"><img alt=\"\" src=\"/content/image/wb/Fig_2-SLF-3rd_4th_Instar-2018.jpg\" />\r\n<figcaption>Third instar SLF are black with white dots and about &frac14;&ldquo; in length; fourth instar are red with white spots and black lines and measure about &frac12;&ldquo; in length. [Photo by Linda Jones McKee. All other photos are by Heather Leach]</figcaption>\r\n</figure>\r\n\r\n<figure class=\"image\"><img alt=\"\" height=\"621\" src=\"/content/image/temp/lanternfly(1).png\" width=\"800\" />\r\n<figcaption>: The results of the insecticide research trials on SLF are summarized in this table. While many of the insecticides have a good to excellent rating on controlling SLF, most of them are toxic to beneficial insects such as bees.</figcaption>\r\n</figure>\r\n\r\n<p>It has now been more than 6&frac12; years since the Pennsylvania Department of Agriculture (PDA) confirmed that a new invasive species known as the spotted lanternfly (Lycorma delicatula) had been found in Berks County, Pennsylvania. This discovery in September 2014 in southeastern part of the state was especially concerning to grape growers because spotted lanternflies (SLF) are very fond of grapevines and that region is home to numerous wineries and vineyards.</p>\r\n\r\n<p>Today, in spite of efforts to quarantine the insects, SLF is now present in 26 counties in Pennsylvania and has been found in eight additional states: New Jersey, Delaware, Maryland, Virginia, West Virginia, Connecticut, New York, and Ohio. It has been detected in Maine, Massachusetts, North Carolina, Michigan, California and Oregon, but established populations have not yet been discovered in those states. The important point is that this insect is here, and it&rsquo;s moving slowly but surely into new locations.</p>\r\n\r\n<p>WHAT DOES THE SLF LOOK LIKE?</p>\r\n\r\n<p>The adult SLF lay their egg masses on many different surfaces, including trees, rocks, fence posts, outdoor furniture, even children&rsquo;s toys that have been left outside. The masses themselves are not large, usually no longer than 1&frac12;&rdquo; to 2&rdquo; and have a mud-like covering (FIGURE 1). They can be located at all heights on a tree, which makes it difficult to find and remove the eggs. In vineyards, egg masses are often found underneath cordons, on the vines, and on wooden or metal posts.</p>\r\n\r\n<p>In Pennsylvania, the nymphs hatch in May and June. The first three nymph stages are small, no more than &frac14; inch, and are black with white spots. The fourth instar is red with white spots and black stripes and is slightly larger, about &frac12; inch (FIGURE 2). The adult SLF emerge in August and measure ~ l inch long, with black bodies and red, black and white hindwings (FIGURE 3). When the wings are folded, the forewings are a pinkish gray with black spots, the wing tips are black with gray veins, and the colorful hindwings are not visible.</p>\r\n\r\n<p>HOW DOES THE SLF TRAVEL?</p>\r\n\r\n<p>The most concerning question may be: how does it travel? If the SLF is a fly, does it fly, and how far and how fast? Even though is called a lantern&ldquo;fly,&rdquo; SLF do not actually fly long distances in one flight. The insect is primarily a planthopper, and the four instar (nymph) stages and the one-inch-long adults can jump 3 to 4 feet. However, they are adept hitchhikers and have been known to cling to or lay its egg masses on cars, trucks, trains and sometimes slabs of stone. When it was first found in Winchester, Virginia in January 2018, the SLF were in a stone yard adjacent to a railroad and highways.</p>\r\n\r\n<p>&ldquo;It is fully within the range of possibility that SLF could hide out on the underside of a train car or lay an egg mass or two somewhere on a freight car and travel across the United States. In March this past year there were reports that agricultural inspectors had found several dead SLF on cargo planes in Sacramento, Stockton and Ontario. None of these insects have been found alive in California &ndash; so far.</p>\r\n\r\n<p>Research in Pennsylvania, however, has shown that the SLF are capable of moving more than 3 or 4 feet at a time. After there were several reports of tens of thousands of SLF in mass dispersal flights, Dr. Thomas Baker, professor of entomology at Pennsylvania State University, Dr. Andrew Myrick, assistant research professor of entomology also at Penn State, and their research team set up flight dispersal sites at a fruit farm in Berks County in 2017 and another site at Dorney Park in Allentown, PA a year later. They documented the flight paths of individual SLF during mass flight dispersals and measured both ground and air speed, as well as the duration, distance and trajectory of their flights.</p>\r\n\r\n<p>The Penn State team found that the average flight of a SLF lasts just 11.5 seconds. However, on occasional hot days with a vertical up-draft of warm air, the insects can be lifted up hundreds of feet and then carried downwind between 325 and 650 feet. [Readers who are interested in reading research reports can go to the website www.stopslf.org for a list of publications.]</p>\r\n\r\n<p>WHAT DO SLF EAT?</p>\r\n\r\n<p>When the SLF was introduced into Korea in 2006 (it is native to China, India, Japan and Vietnam), the insects attacked 25 plant species that are also found in Pennsylvania. The pests were first seen in Berks County, PA on wild grapevines, maple, weeping willow trees and Ailanthus altissima, an invasive sumac-like tree commonly known as tree of heaven. In eastern Asia, other host plants include not only grapes but hardwood trees, peaches, and more than 70 additional species. Of all those possible food choices, the SLF seem to prefer grapes and tree of heaven.</p>\r\n\r\n<p>The insect uses its piercing-sucking mouthpart to feed on the sap of vines and trees and then excretes excess levels of sugars and water. The excrement, known as &ldquo;honeydew,&rdquo; accumulates under areas where the SLF are feeding and attracts ants, bees, wasps and other sugar-loving insects, and frequently is colonized by sooty mold fungi, which can block photosynthesis in the leaves where it is present. So far sooty mold has not been reported on grape clusters or as a problem for either marketability or wine taint.</p>\r\n\r\n<p>In 2014, Dr. Michael Saunders, professor of entomology at the Pennsylvania State University, told the author of this article that the SLF &ldquo;has the potential to impact the green industry, grape growers, tree fruit growers, and the forests and wood products industries in Pennsylvania as well as the United States.&rdquo; In other words, grape growers will have allies in other industries to help them combat the SLF invasion.</p>\r\n\r\n<p>Heather Leach, who joined Penn State&rsquo;s College of Agricultural Sciences as an extension associate in May 2018 to focus specifically on the SLF, has done some testing over the last two years to determine what other commodities the SLF might feed on in other regions such as avocado, hardy kiwi, fig, hemp, and even cucumbers. She found that the SLF can inflict damage on those crops as well. This was especially true on cucumbers, where the more SLF that were on a plant, the more the yield dropped. Row crops such as corn and soybeans are not as susceptible to SLF pressure.</p>\r\n\r\n<p>ARE THERE BIOLOGICAL CONTROLS OR BIOCIDES THAT CAN PROTECT GRAPES?</p>\r\n\r\n<p>If researchers could find a natural enemy of the SLF, that would possibly be a very good way to control the numbers of SLF. At one point, a parasitic wasp was identified as attacking SLF, but in low numbers, and there have been reports of spiders and praying mantises eating SLF.</p>\r\n\r\n<p>In late 2017, Dr. Eric Clifton, a postdoctoral researcher in entomology at Cornell University, and Dr. Ann Hajek, professor of entomology at Cornell, received reports that fungi seemed to be killing some SLF on trees near an apple orchard in Berks County, PA. The two investigated, collected the dead SLF from tree trunks and on the ground, and determined that two North American fungal pathogens had been responsible for killing most of the SLF. Batkoa major was responsible for killing 97% of the SLF on the tree trunks, while for the SLF found on the ground, it was a combination of Batkoa major found in 51% and Beauveria bassiana in 49%. While both discoveries were exciting, Beauveria bassiana was particularly interesting as this is a commercially available entomopathogen that could be applied across a larger area.</p>\r\n\r\n<p>Scientists from Cornell and Penn State followed up on the potential use of Beauveria bassiana in 2019. They established four research plots on forested sections of Norristown Farm Park in Norristown, Montgomery County, PA that had dense populations of SLF late-stage nymphs and adults. Each plot contained tree of heaven, one of SLF&rsquo;s preferred locations for both feeding and egg laying. Hydraulic sprayers were used to treat control sections with water and to apply a water-based commercial biopesticide containing Beauveria bassiana on the other sections. Insects were collected when they fell to the ground to compare rates of mortality between the water control plot and the Beauveria plot.</p>\r\n\r\n<p>The Norristown study showed a 46% reduction of fourth instars with just one spray. The adult population was not reduced as much, possibly because the spray applied from the ground didn&rsquo;t go very high into the trees and, in addition, the adults were more mobile. The plots were somewhat small, and it may be that the nymphs moved farther and faster than the researchers anticipated, and some of the infected nymphs may have left the research plot before their demise.</p>\r\n\r\n<p>The results from the Norristown study encouraged the researchers to continue their research during the Spring and Summer of 2020, this time on six secluded acres at the Blue Marsh Lake Recreation Area northwest of Reading, PA. The 2020 study involved the evaluation of a single application early in the season of a synthetic insecticide containing the active ingredient dinotefuran in comparison to two biopesticides containing Beauveria bassiana applied both from the ground and aerially over several weeks.</p>\r\n\r\n<p>Leach told <em>Wine Business Monthly</em> that the Blue Marsh research was Penn State&rsquo;s first big-scale project with two different areas, with multiple sprays from both helicopters and ground-based sprayers.</p>\r\n\r\n<p>The Blue Marsh research showed that both the &ldquo;aerial and ground-based spray application of dinotefuran reduced spotted lanternfly populations by up to 90% within 24 hours of application and remained effective for at least two weeks.&rdquo; Results also showed that within this experiment, the insecticide &ldquo;had minimal to no measurable impact on nontarget species, including pollinators.&rdquo;</p>\r\n\r\n<p>Biopesticides, on the other hand, take longer to work than chemical insecticides: they require three to ten days to kill an insect. The two biopesticides containing Beauveria bassiana were applied by ground or air three times at two-week intervals. While the Beauveria spray was efficacious in woodlots, Leach said, &ldquo;We didn&rsquo;t see the same response on a large scale&rdquo; and the SLF populations within the biopesticide plots did not differ significantly from the control groups. Based on the results of the Blue Marsh research, Penn State is &ldquo;not currently recommending B. bassiana for use in or around vineyards.&rdquo;</p>\r\n\r\n<p>ARE INSECTICIDES A POSSIBLE SOLUTION?</p>\r\n\r\n<p>In the Spring of 2018, Dr. David Biddinger, research professor of entomology at Penn State, and Leach, assisted by team members Dr. Julie Urban, associate research professor of entomology, and John Rost, research technician at Penn State Berks, put sleeves around 250 one-year-old potted grapevines and 250 potted peach trees at the Berks campus of Penn State in Reading, PA. They then introduced ten SLF nymphs into the sleeve surrounding each plant. Their goal was to test the efficacy of 20 different insecticides, and the team checked each plant every two, seven and 14 days to count how many SLF were alive or dead. The nymph trials ended in late July; tests with adult SLF began in early August.</p>\r\n\r\n<p>Additional insecticide trials were conducted by Leach in 2020 in commercial vineyards to test the residual efficacy of insecticides that could be used both before and after harvest. According to Leach, the nymph populations in vineyards are often low, and the nymphs that are there &ldquo;are susceptible to a broad range of insecticides including those that might be used for Japanese beetle.&rdquo; For nymph populations, usually only one application of insecticide is necessary, as nymphs have not been seen reinfesting vineyards at the same rates adult SLF. Adults, however, begin to arrive in vineyards in late August and continue to influx into vineyards until late October.</p>\r\n\r\n<p>Several common insecticides have provided some control of both nymphs and adults, including Scorpion, Brigade, Danitol, and Mustang Maxx (TABLE 1). In a talk she presented at the first ASEV webinar on invasive pests in June 2020, Leach noted that growers who used sprays went from four applications prior to the initial arrival the SLF to 14 applications in the two years 2016 to 2018. The average cost per acre went from $54 to $147.</p>\r\n\r\n<p>One important result of monitoring research conducted in vineyards was the discovery that between 54% and 80% (or more) of the SLF population in a vineyard was within the first 50 feet of the vineyard edge, depending on the landscape surrounding the vineyard. Consequently, treating the edge &ndash; the first 50 feet &ndash; of the vineyard can be just as effective as treating the entire vineyard. A modified sprayer or cannon sprayer could be used to treat only the edge of the vineyard, which would both save time and reduce insecticide input.</p>\r\n\r\n<p>During a webinar presented in Ohio, Leach noted that BDI Machinery in Macungie, PA donated a CIMA Cannon Sprayer to an insecticide trial so that it could be compared to a CIMA over-the-row sprayer. Leach worked with a vineyard in Berks County to evaluate these two sprayers. She found that border spraying by the Cannon Sprayer was as effective at killing SLF as spraying the entire vineyard with an over-the-row sprayer. The border sprays reduced SLF by 85.4%, compared to spraying every row (for a 85.6% control), reduced spray time by 70% (6.6 minutes compared to 22.1 minutes) and lowered the spray cost.</p>\r\n\r\n<p>Leach also did a &ldquo;proof of concept&rdquo; test of exclusion netting on vineyards, primarily on Gr&uuml;ner Veltliner vines, in 2020 (FIGURE 4). She found that netting (donated by DrapeNet) reduced SLF by 99.8%, and that the Brix was slightly reduced (by 0.5&deg;) while pH and titratable acidity were not affected. The netting had no effect on the presence of either downy mildew or rot. While many growers are moving away from over-the-row netting, this might be a solution for smaller vineyards.</p>\r\n\r\n<p>Another test project was to build a &ldquo;flight-intercept wall,&rdquo; 13 feet tall, 180 feet long, at the end of a vineyard, and then to cover half of the framework with insecticide-treated netting and half with untreated netting (FIGURE 5). The object was to attract the SLF to the barrier, have them climb up the supports, and then kill them on the netting. Over a two-month period, 15,236 SLF were killed. Leach found that treated netting reduced the number of SLF on the first two rows by 79% compared with two rows with no netting, and that those first two rows of vines represented about 73% of the SLF population in the vineyard. However, there was no effect on the numbers of SLF in row 3 or the remainder of the vineyard. She also noted that building such a wall was not really a practical approach for growers, but that this trial represented a jumping-off point to search for more economical ways to reduce SLF in vineyards.</p>\r\n\r\n<p>WHAT DAMAGE OCCURS ON GRAPEVINES WHEN SLF FEED ON THEM?</p>\r\n\r\n<p>A Penn State research team comprised of Dr. Urban, Erica Smyers, a doctoral candidate in entomology, Dr. Michela Centinari, assistant professor of viticulture, and Dr. Saunders set up a research site in Berks County at Manatawny Creek Winery in Douglassville, PA in the Spring of 2018. They planted 80 three-year-old Chardonnay vines, each one in a netted cage. After the vines were established and adult SLF were available, they introduced different densities of adult SLF into the cages. The goal was to determine the feeding damage to the vine, long-term damage, amount of yield reduction and the impact of sooty mold on the vines.</p>\r\n\r\n<p>In both 2019 and 2020, a Penn State research team (composed of Centinari, Leach, Urban, Andrew Harner, Ph.D. candidate, and research technologists Lauren Briggs and Don Smith), set up an experiment in a home winemaker&rsquo;s vineyard in Lehigh County, PA that had five-year-old vines with a trellis system in place. Cages were placed around 16 individual vines and then a known quantity &ndash; zero, low, medium and high &ndash; of adult SLF were introduced into the cages in four replicates in late August. The SLF remained in the cages for 4-5 days, at which time the SLF were removed by hand. The vines then had the following week to recover before the same numbers of SLF are reintroduced into the appropriate cages. The cycle was repeated six times. &nbsp;</p>\r\n\r\n<p>The goals for the project were to determine the effect of the different numbers of SLF feeding on the physiology of the vines. They specifically looked at photosynthesis and transpiration of leaves; the accumulation of carbohydrates and nutrients in the fruit and storage in the stem and root tissues; and the bud freeze tolerance (cold hardiness).</p>\r\n\r\n<p>Throughout the experiments, results showed that more SLF reduced photosynthesis and sap flow, sugar content of fruit, starch (carbohydrates) and nitrogen in root tissues. Leach noted that vines already stressed by other factors such as disease, cold winters, lack of sunlight, and excessive rainfall are likely to be more sensitive to SLF feeding damage.</p>\r\n\r\n<p>Data collected by Leach for the past three years from nine vineyards in southeastern Pennsylvania has shown that increasing levels of SLF on vinifera vines does have a correlation with reduced clusters per shoot the following spring, and that SLF feeding can reduce the hardiness of a vine and potentially increase susceptibility to winter injury (FIGURE 6). Of the more than 80% of growers managing for SLF in the Pennsylvania quarantine region, 30% reported damage, most of which is yield loss or potential vine death.</p>\r\n\r\n<p>As a consequence, Penn State is strongly recommending that if growers have seen high levels of SLF feeding on vines in the summer or fall, they should carefully evaluate bud injury before pruning. Moderate to high levels of bud injury may necessitate increasing the number of buds retained to compensate for bud mortality or renewing trunks.</p>\r\n\r\n<p>WHERE IS MONEY COMING FROM TO SUPPORT RESEARCH ON SLF?</p>\r\n\r\n<p>Because the SLF posed a potential threat to agricultural crops, the U.S. Department of Agriculture Farm Bill in 2015 provided almost $1.5 million, with part of the allotment going to the PDA to do surveys and implement control of the SLF, and the balance to Kutztown University, Pennsylvania State University and North Carolina State University to conduct research on the range of the pest, its impact on grapes, and an analysis of its DNA. Penn State also received a grant to perform outreach and extension work.</p>\r\n\r\n<p>By November 2017 the quarantine zone in Pennsylvania had been expanded to include 13 counties east of the Susquehanna River and south of the Pocono Mountains. Since the SLF problem was expanding, the PDA that year received $2.9 million from the U.S. Department of Agriculture (USDA) to control the SLF and another $25,000 for outreach efforts. The PDA also worked with the state Departments of Transportation and Conservation and Natural Resources to develop a multi-agency response plan.</p>\r\n\r\n<p>In February 2018, the month after the SLF was found in Virginia, the USDA allocated $17.5 million to help stop the SLF, and the Pennsylvania state budget for 2018-2019 included $3 million for the PDA to work to understand, detect and control the invasive pest.</p>\r\n\r\n<p>Research on the SLF received a major financial boost in 2019: the USDA&rsquo;s National Institute of Food and Agriculture awarded a four-year, $7.3 million Specialty Crops Research Initiative grant to Penn State to support an interdisciplinary, multi-institutional 37-member team of researchers who are working to learn more about SLF and to develop strategies for the long-term management of that insect.</p>\r\n\r\n<p>The interdisciplinary research team, led by Dr. Julie Urban, associate research professor of entomology at Penn State, includes entomologists, vineyard extension educators, insect behaviorists, toxicologists, viticulturists, plant physiologists and plant pathologists from Penn State University, Cornell University, Virginia Tech, the University of Delaware, the University of Rhode Island, Temple University, and Rutgers University, as well as the Northeastern IPM Center, the USDA Agricultural Research Service and USDA Animal and Plant Health Inspection Service.</p>\r\n\r\n<p>CONCLUSION</p>\r\n\r\n<p>A research team, composed of Dr. Jocelyn Behm, assistant professor of ecology and integrative biology; Dr. Matthew R. Helmus, assistant professor of ecology and invasive species; and Benjamin Seibold, associate professor of mathematics, at Temple University in Philadelphia has conducted a study of where the SLF are likely to establish, based on the presence of certain crops such as grapes. They included information about transportation pathways and the presence of tree of heaven, one of the SLF&rsquo;s favorite plant hosts. SLF is expected to establish in many grape producing areas, not just in the United States, but globally.</p>\r\n\r\n<p>While the SLF will probably continue to spread, the population growth will be relatively slow, in part because they produce only one generation each year. According to Leach, growers should keep up to date with new management options and information from their state extension programs and departments of agriculture and, most importantly, keep their vines healthy before SLF makes its way to them.</p>\r\n\r\n<figure class=\"image\"><img alt=\"\" src=\"/content/image/wb/Fig_3-SLF-Adult_on_grapes-Leach(1).jpg\" />\r\n<figcaption>An adult SLF with its wings open.</figcaption>\r\n</figure>\r\n\r\n<figure class=\"image\"><img alt=\"\" src=\"/content/image/wb/Fig_4-SLF-exclusion_netting-Leach(1).jpg\" />\r\n<figcaption>Exclusion fencing was constructed at the edge of a vineyard. Half of the structure was covered with insecticide-treated netting and half with untreated netting.</figcaption>\r\n</figure>\r","authortitle":""}</script>
+<script type="application/json" id="jsonExtraData">{"isWBID":false,"WBID":"","userId":"","userStatus":"not logged-in"}</script>
+
+<script type="application/json" id="jsonEntityData">{"aEntities":[{"postalcode":"14853","country":"USA","entityId":12811,"entitytypeid":14,"state":"NY","companyname":"Cornell University","website":"grapesandwine.cals.cornell.edu","isBuyersGuide":0,"city":"Ithaca","introtext":""},{"postalcode":"16802","country":"USA","entityId":59381,"entitytypeid":14,"state":"PA","companyname":"Penn State University","website":"agsci.psu.edu","isBuyersGuide":0,"city":"University Park","introtext":""}],"aEntityData":[{"articleDateStr":"Nov 14, 2025","entityid":12811,"publication":"WineBusiness Daily News","publicationId":9,"urlNewsArticle":"/news/article/310550","issueDate":"November, 14 2025 00:00:00 -0800","companyname":"Cornell University","startingDate":"","dataid":310550,"title":"At NGRA Grapevine Improvement Workshop, Scientists Share Genetics Strategies for Developing Grapes for the 22nd Century","publicationIssueId":16651},{"articleDateStr":"Oct 7, 2025","entityid":12811,"publication":"WineBusiness Daily News","publicationId":9,"urlNewsArticle":"/news/article/308923","issueDate":"October, 07 2025 00:00:00 -0700","companyname":"Cornell University","startingDate":"","dataid":308923,"title":"A Multi-Institutional Research & Extension Program for GRBV","publicationIssueId":16562},{"articleDateStr":"Aug 26, 2024","entityid":12811,"publication":"WineBusiness Daily News","publicationId":9,"urlNewsArticle":"/news/people/article/291673","issueDate":"August, 26 2024 00:00:00 -0700","companyname":"Cornell University","startingDate":"","dataid":291673,"title":"DeLille Cellars Appoints Jason Gorski to VP of Winemaking, SaverGlass Appoints New Senior VP of Saverglass Americas, and Other People News","publicationIssueId":15647},{"articleDateStr":"Aug 22, 2024","entityid":12811,"publication":"WineBusiness Daily News","publicationId":9,"urlNewsArticle":"/news/people/article/291550","issueDate":"August, 22 2024 00:00:00 -0700","companyname":"Cornell University","startingDate":"","dataid":291550,"title":"The Walls Vineyards Marks a Decade of Excellence by Welcoming a New National Sales Manager, Associate Winemaker, and Direct to Consumer Manager","publicationIssueId":15640},{"articleDateStr":"Jul 26, 2024","entityid":12811,"publication":"WineBusiness Daily News","publicationId":9,"urlNewsArticle":"/news/article/290417","issueDate":"July, 26 2024 00:00:00 -0700","companyname":"Cornell University","startingDate":"","dataid":290417,"title":"Archer Roose and Cornell University Revolutionize the Canned Wine Category With Award-Winning Research","publicationIssueId":15574},{"articleDateStr":"Jan 26, 2026","entityid":59381,"publication":"WineBusiness Daily News","publicationId":9,"urlNewsArticle":"/news/article/313194","issueDate":"January, 26 2026 00:00:00 -0800","companyname":"Penn State University","startingDate":"","dataid":313194,"title":"ColdSnap Project: A webinar on January 27 at 1:00 p.m. (ET) will discuss a new cold hardiness tool for grape growers east of the Rockies","publicationIssueId":16793},{"articleDateStr":"Aug 8, 2025","entityid":59381,"publication":"WineBusiness Daily News","publicationId":9,"urlNewsArticle":"/news/article/306533","issueDate":"August, 08 2025 00:00:00 -0700","companyname":"Penn State University","startingDate":"","dataid":306533,"title":"ASEV-Eastern Section Meets in Athens, Georgia","publicationIssueId":16434},{"articleDateStr":"Aug 19, 2024","entityid":59381,"publication":"WineBusiness Daily News","publicationId":9,"urlNewsArticle":"/news/article/291346","issueDate":"August, 19 2024 00:00:00 -0700","companyname":"Penn State University","startingDate":"","dataid":291346,"title":"Vineyard Workshop at Veraison Held by Penn State Extension","publicationIssueId":15625},{"articleDateStr":"Jul 22, 2024","entityid":59381,"publication":"WineBusiness Daily News","publicationId":9,"urlNewsArticle":"/news/article/290221","issueDate":"July, 22 2024 00:00:00 -0700","companyname":"Penn State University","startingDate":"","dataid":290221,"title":"ASEV-Eastern Section Meets in Cleveland, Ohio","publicationIssueId":15562},{"articleDateStr":"Mar 12, 2024","entityid":59381,"publication":"WineBusiness Daily News","publicationId":9,"urlNewsArticle":"/news/article/284516","issueDate":"March, 12 2024 00:00:00 -0700","companyname":"Penn State University","startingDate":"","dataid":284516,"title":"B.E.V. NY Conference Held in Canandaigua, NY","publicationIssueId":15269}],"dataId":242392}</script>
+
+<script type="application/json" id="jsonMostPopular">{"objNews":{"aMDay":[{"issueDateStr":"Feb 11, 2026","publicationId":3,"dataId":313889,"subtitle":"Matt Kettmann","title":"Goleta Farming Visionaries Jay and Kristen Ruskey Both Die","summary":"Jay and Kristen Ruskey -- who pioneered California's coffee-growing movement from their farm in the hills of western Goleta -- both died suddenly on Sunday due to what's being described as a \"tragic accident.\" The co-founders of Frinj Coffee helped develop more than 70 coffee farms across Southern California based on what they learned at Good Land Organics, their farming operation atop Farren Road where the Ruskeys also tested now-popular exotic crops such as caviar limes and dragon fruit.","requestCount":4561},{"issueDateStr":"Feb 19, 2026","publicationId":3,"dataId":314206,"subtitle":"brewbound - paywall","title":"Breakthru Beverage Lays Off 500 Workers Amid Industry Shakeup","summary":"'Breakthru Beverage Group has undergone a \"strategic review\" of the company's \"overall business,\" according to a memo sent to employees by CEO Tom Bené on Tuesday, leading to layoffs of approximately 500 people, sources confirmed to Brewbound. Employees reported layoffs in several markets on the Reddit thread r/BreakthruBev. Sources confirmed the layoffs were closer to half of the rumored 1,000 employees cut.'","requestCount":2928},{"issueDateStr":"Jan 29, 2026","publicationId":3,"dataId":313339,"subtitle":"Esther Mobley, SF Chronicle, paywall","title":"After leaving California, one of the country's largest alcohol distributors is in shambles","summary":"'No winery, brewery or distillery wants to be caught on a sinking ship, it seems.'","requestCount":2866},{"issueDateStr":"Feb 19, 2026","publicationId":3,"dataId":314213,"subtitle":"Jess Lander, SF Chronicle paywall","title":"Gallo closing the Ranch Winery, laying off workers at four other locations","summary":"Gallo is closing a Napa Valley production facility and has planned layoffs at four other California wineries and tasting rooms, resulting in the loss of 93 jobs. Gallo will permanently close the Ranch Winery and cut staff at Louis M. Martini Winery and the Orin Swift tasting room, J Vineyards and Frei Ranch, another large production facility. Layoffs will impact a variety of departments, including winemaking, hospitality and culinary.","requestCount":2855},{"issueDateStr":"Feb 9, 2026","publicationId":3,"dataId":313736,"subtitle":"WineBusiness News","title":"Monarch Tractor Abandons Ship","summary":"The manufacturer of \"the world's first fully electric, driver-optional (autonomous), smart tractor\" is on the verge of going out of business. The Livermore, CA office phone still rings but nobody answers or returns voicemails. Most, if not all, of the employees are gone and the company is liquidating inventory via auction this week.","requestCount":2345},{"issueDateStr":"Jan 22, 2026","publicationId":3,"dataId":313038,"subtitle":"Esther Mobley, SF Chronicle, paywall","title":"An Acclaimed California Winery, Once a Darling of the Pinot Noir Movement, is Closing","summary":"Healdsburg's Arista Winery did not produce any wine during last year's harvest and will not produce any more in the future. Its final vintage will be 2024.","requestCount":2255}],"aYDay":[{"issueDateStr":"Feb 20, 2026","publicationId":3,"dataId":314320,"subtitle":"NBC News","title":"Supreme Court strikes down most of Trump's tariffs in a major blow to the president","summary":"The decision does not affect all of Trump's tariffs but invalidates those implemented using an emergency law.","requestCount":2032},{"issueDateStr":"Feb 19, 2026","publicationId":3,"dataId":314206,"subtitle":"brewbound - paywall","title":"Breakthru Beverage Lays Off 500 Workers Amid Industry Shakeup","summary":"'Breakthru Beverage Group has undergone a \"strategic review\" of the company's \"overall business,\" according to a memo sent to employees by CEO Tom Bené on Tuesday, leading to layoffs of approximately 500 people, sources confirmed to Brewbound. Employees reported layoffs in several markets on the Reddit thread r/BreakthruBev. Sources confirmed the layoffs were closer to half of the rumored 1,000 employees cut.'","requestCount":707},{"issueDateStr":"Feb 20, 2026","publicationId":3,"dataId":314247,"subtitle":"WineBusiness News","title":"New Year Brings Steady Off-Premise Sales","summary":"Dry January does not appear to have had much of an impact on off-premise spending this year","requestCount":562},{"issueDateStr":"Feb 20, 2026","publicationId":3,"dataId":314272,"subtitle":"Brooke Fanale, UC Davis","title":"UC Davis Studying Best Winery Sanitation Practices","summary":"Please take a few minutes and fill this survey if you are involved in wine production. UC Davis is studying automated cleaning systems and evaluating if they will be useful in the wine industry. This survey is to help create a techno-economic analysis (TEA) and a life cycle analysis (LCA) for cleaning in the wine industry. Data will be used academically and responses will remain anonymous.","requestCount":365},{"issueDateStr":"Feb 20, 2026","publicationId":3,"dataId":314312,"subtitle":"twitter","title":"Representative Thomas Massie (R-KY) to Introduce \"No Immunity for Glyphosate Act\"","summary":"'... to undo the recent Executive Order which promotes glyphosate (Round-Up) and insulates manufacturers from liability.'","requestCount":361},{"issueDateStr":"Feb 20, 2026","publicationId":3,"dataId":314264,"subtitle":"WineBusiness News","title":"Grapes & Bulk Wine Market Activity Rises in January","summary":"The WineBusiness Grapes & Bulk Wine Market saw increased buyer activity in January with replies to listings up 9% year-over-year despite a nearly 30% decline in posted lots. The increase was driven primarily by bulk wine, with replies up 12% versus January 2025. Shiner listings also saw increased interest, while 2026 grape listings declined. This shift toward bulk wine aligns with current market conditions where high-quality bulk wine is readily available.","requestCount":357}],"aWDay":[{"issueDateStr":"Feb 19, 2026","publicationId":3,"dataId":314206,"subtitle":"brewbound - paywall","title":"Breakthru Beverage Lays Off 500 Workers Amid Industry Shakeup","summary":"'Breakthru Beverage Group has undergone a \"strategic review\" of the company's \"overall business,\" according to a memo sent to employees by CEO Tom Bené on Tuesday, leading to layoffs of approximately 500 people, sources confirmed to Brewbound. Employees reported layoffs in several markets on the Reddit thread r/BreakthruBev. Sources confirmed the layoffs were closer to half of the rumored 1,000 employees cut.'","requestCount":2928},{"issueDateStr":"Feb 19, 2026","publicationId":3,"dataId":314213,"subtitle":"Jess Lander, SF Chronicle paywall","title":"Gallo closing the Ranch Winery, laying off workers at four other locations","summary":"Gallo is closing a Napa Valley production facility and has planned layoffs at four other California wineries and tasting rooms, resulting in the loss of 93 jobs. Gallo will permanently close the Ranch Winery and cut staff at Louis M. Martini Winery and the Orin Swift tasting room, J Vineyards and Frei Ranch, another large production facility. Layoffs will impact a variety of departments, including winemaking, hospitality and culinary.","requestCount":2855},{"issueDateStr":"Feb 20, 2026","publicationId":3,"dataId":314320,"subtitle":"NBC News","title":"Supreme Court strikes down most of Trump's tariffs in a major blow to the president","summary":"The decision does not affect all of Trump's tariffs but invalidates those implemented using an emergency law.","requestCount":2032},{"issueDateStr":"Feb 18, 2026","publicationId":3,"dataId":314151,"subtitle":"San Francisco Chronicle","title":"Chalone Vineyard Lays Off Winemaking Staff, Brand to Continue","summary":"Chalone Vineyard will no longer produce wine at its winery in Soledad (Monterey County), confirmed Nora Feeley, a spokesperson for parent company Foley Family Wines. The brand is not going anywhere, however: An offsite tasting room in Carmel-by-the-Sea will remain open, and wines from the Chalone estate vineyard will be made at other Foley facilities, which are located in Napa Valley, Sonoma County, the Central Coast and elsewhere.","requestCount":1603},{"issueDateStr":"Feb 17, 2026","publicationId":3,"dataId":314086,"subtitle":"Erica Duecy for Forbes","title":"Wine Paris 2026 Showed How The Industry Is Recalibrating","summary":"Walking the halls in Paris this week with more than 65,000 trade visitors and 6,500 exhibitors, what stood out was not anxiety, but rather adaptation. It was clear that the industry understands the scale of its structural shifts, and is actively designing around them.","requestCount":1568},{"issueDateStr":"Feb 19, 2026","publicationId":3,"dataId":314207,"subtitle":"Dave Infante","title":"Here's what Breakthru's CEO is saying about its latest layoffs","summary":"\"Shifting consumer preferences, economic pressures, and evolving marketplace dynamics are reshaping the landscape and placing sustained pressure on our business.\"","requestCount":1236}]},"aHeadings":[{"key":"aYDay","val":"Yesterday"},{"key":"aWDay","val":"Past Week"},{"key":"aMDay","val":"Past Month"}]}</script>
+
+<script type="application/json" id="jsonWinejobs">[{"listingId":303168,"title":"Tasting Room Associate","company":"Reininger Winery","activeDate":"2026-02-21T11:34:00.090","dateString":"9 hours ago","nocapsfirst":null,"locCity":"Walla Walla","locState":"WA","country":"USA","totalCount":644,"rowNum":1},{"listingId":303167,"title":"Cellar Associate","company":"Quintessa","activeDate":"2026-02-21T09:52:05.263","dateString":"11 hours ago","nocapsfirst":null,"locCity":"St. Helena","locState":"CA","country":"USA","totalCount":644,"rowNum":2},{"listingId":303166,"title":"Harvest Intern","company":"Quintessa","activeDate":"2026-02-21T09:52:05.233","dateString":"11 hours ago","nocapsfirst":null,"locCity":"St. Helena","locState":"CA","country":"USA","totalCount":644,"rowNum":3},{"listingId":303165,"title":"Guest Services & Reception","company":"Flowers","activeDate":"2026-02-21T09:52:05.203","dateString":"11 hours ago","nocapsfirst":null,"locCity":"Healdsburg","locState":"CA","country":"USA","totalCount":644,"rowNum":4},{"listingId":303164,"title":"Visitor Center Support","company":"Flowers","activeDate":"2026-02-21T09:52:05.170","dateString":"11 hours ago","nocapsfirst":null,"locCity":"Healdsburg","locState":"CA","country":"USA","totalCount":644,"rowNum":5},{"listingId":303162,"title":"Marketing & Administrative Assistant","company":"Jackson Family Wines","activeDate":"2026-02-21T09:25:08.737","dateString":"11 hours ago","nocapsfirst":null,"locCity":"McMinnville","locState":"OR","country":"USA","totalCount":644,"rowNum":6},{"listingId":303161,"title":"On Premise Sales Representative- Venice","company":"Regal Wine Company","activeDate":"2026-02-21T09:25:08.720","dateString":"11 hours ago","nocapsfirst":null,"locCity":"Venice\/Culver City","locState":"CA","country":"USA","totalCount":644,"rowNum":7}]</script>
+
+<script type="application/json" id="jsonClassifieds">[{"listingId":303173,"sectionId":2,"activedate":"2026-02-21T18:04:41.230","nocapsfirst":null,"sectionTitle":"Grapes and Bulk Wine","linkTitle":"Shiners - Rose-Sangiovese - Lodi","urlListing":"\/classifieds\/grapesbulkwine\/?go=listing&listingid=303173","dateString":"2 hours ago"},{"listingId":303174,"sectionId":2,"activedate":"2026-02-21T18:04:41.230","nocapsfirst":null,"sectionTitle":"Grapes and Bulk Wine","linkTitle":"Shiners - Muscat Canelli - Lodi","urlListing":"\/classifieds\/grapesbulkwine\/?go=listing&listingid=303174","dateString":"2 hours ago"},{"listingId":303172,"sectionId":2,"activedate":"2026-02-21T18:04:41.213","nocapsfirst":null,"sectionTitle":"Grapes and Bulk Wine","linkTitle":"Shiners - Pinot Gris - Lodi","urlListing":"\/classifieds\/grapesbulkwine\/?go=listing&listingid=303172","dateString":"2 hours ago"},{"listingId":303171,"sectionId":2,"activedate":"2026-02-21T13:51:26.793","nocapsfirst":null,"sectionTitle":"Grapes and Bulk Wine","linkTitle":"Grapes - Pinot Noir - Umpqua Valley","urlListing":"\/classifieds\/grapesbulkwine\/?go=listing&listingid=303171","dateString":"7 hours ago"},{"listingId":303170,"sectionId":2,"activedate":"2026-02-21T12:44:08.107","nocapsfirst":null,"sectionTitle":"Grapes and Bulk Wine","linkTitle":"Bulk Wine - Chardonnay - Russian River Valley","urlListing":"\/classifieds\/grapesbulkwine\/?go=listing&listingid=303170","dateString":"8 hours ago"},{"listingId":303169,"sectionId":4,"activedate":"2026-02-21T11:44:58","nocapsfirst":null,"sectionTitle":"Real Estate","linkTitle":"Other - Carlton, OR","urlListing":"\/classifieds\/realestate\/?go=listing&listingid=303169","dateString":"9 hours ago"}]</script>
+<script type="application/json" id="jsonAnalytics">{"segment":"<p class=\"wb-img-align-center\"><img alt=\"\" src=\"/content/image/webpage/dtc_cover(1).png\" /></p>\r\n\r\n<p>Mirroring broader challenges across the wine industry, the&nbsp;annual&nbsp;<a href=\"https://sovos.com/shipcompliant/content-library/wine-dtc-report/\">Direct-to-Consumer Wine Shipping Report</a>&nbsp;from Sovos ShipCompliant&nbsp;and WineBusiness Analytics found that the prolonged downturn in the&nbsp;DtC&nbsp;wine shipping market intensified in 2025. The entire report can be downloaded for free and provides an in-depth examination of one of the most challenging years in nearly two decades as the market saw unprecedented declines of 15% by volume and&nbsp;6% by value. The report can be downloaded <a href=\"https://sovos.com/shipcompliant/content-library/wine-dtc-report/\">here</a> and includes data on shipments by winery region, varietal, price tier and winery size.</p>"}</script>
+<script type="application/json" id="jsonEvents">[{"event_id":15525,"event_title":"Texas Wine & Grape Growers Association Annual Conference & Tradeshow","event_desc":"The Texas Wine & Grape Growers Association is proud to be the oldest and only statewide industry organization that supports, promotes, and legislatively addresses issues amongst vineyard owners, grape crop producers\/managers, and winery and tasting room managers\/buyers, as well as vineyard and grape crop manufacturers and distributors and winery and tasting room product and service vendors.\r\n\r\nThe Annual Conference & Trade Show features engaging educational sessions, unique food and wine events, the chance to reconnect with your wine and grape family and grow your business, and more.","event_start_date_day":23,"event_start_date_month":2,"event_start_date_year":2026,"state":"TX","country":"USA","event_start_date":"2026-02-23"},{"event_id":15523,"event_title":"Pennsylvania Winery Association Annual Membership Meeting","event_desc":"PWA Members are invited to attend the PWA Annual Membership Business Meeting on Tuesday, February 24, 2026 at the Nittany Lion Inn in State College, PA.","event_start_date_day":24,"event_start_date_month":2,"event_start_date_year":2026,"state":"PA","country":"USA","event_start_date":"2026-02-24"},{"event_id":15524,"event_title":"Virginia Winter Technical Meeting and Trade Show","event_desc":"Save the date for the 2026 Winter Technical Meeting and Tradeshow. We will be gathering at the Shenandoah Valley Conference Center at Hotel Madison in Harrisonburg, VA, on February 25-26. Meeting and registration details can be found on the website mid-December.","event_start_date_day":25,"event_start_date_month":2,"event_start_date_year":2026,"state":"VA","country":"USA","event_start_date":"2026-02-25"}]</script>
+
+
+<script>
+  var _baseUrl = ''
+  var _isSearchBot = false;
+</script>
+
+<script src="/includes/js/wb/views/wb-content-col-news-article-v1.3.min.js"></script>
+
+
+
+
+
+<script type="application/javascript">
+window.dataLayer.push({"event":"page_view","pageType":"News Article - Article","pageName":"The Spotted Lanternfly is moving West, South, and sometimes North and East","isWBID":false,"userStatus":"not logged-in","article_title":"The Spotted Lanternfly is moving West, South, and sometimes North and East","pubDate":"2021-03-04","wbTopic":"vyd","dataId":242392,"dataType":"Article","wbRegion":"USA","wbCategory":"Grapegrowing / Vineyard Management","wbProperty":"Grapegrowing / Vineyard Management"});
+</script>
+
+<!--[WB-MON-CHECK]--->
+</body>
+</html>

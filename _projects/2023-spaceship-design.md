@@ -3,7 +3,7 @@ layout: project
 title: Client Pitch
 description: Open Design Project Client Pitch hoping to get more information about the SLF and grape harvest process.
 technologies: [Fusion360, Machining]
-image: /assets/images/spaceship-design.jpg
+image: /assets/images/slfgrape.pdf
 ---
 
 Client(s): Cornell CALS Extension / E&J Gallo Winery / National Grape

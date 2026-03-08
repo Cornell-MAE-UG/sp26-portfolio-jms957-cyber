@@ -1,10 +1,11 @@
 ---
-layout: project
-title: Nutcracker Design
-description: Homework assignment for MAE2020
+layout: "project"
+title: "Nutcracker Design"
 technologies: [Sketching]
-image: /assets/images/Nutcracker-v2.png
+image: /assets/images/Nutcrackerv2.png
+description: Homework assignment for MAE2020
 ---
+
 
 Problem Statement: Determine the size of a Nutcracker based on your own choice of nut size and given/applied strength. 
 

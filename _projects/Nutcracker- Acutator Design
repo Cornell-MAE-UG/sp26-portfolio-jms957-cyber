@@ -1,0 +1,15 @@
+---
+layout: "project"
+title: "Nutcracker Acutator Design"
+technologies: [Sketching]
+image: /assets/images/actutatorD1.png
+description: Homework assignment for MAE2020
+---
+
+Problem Statement: Find the location of the maximum elastic deflection, and proceed to choose a beam design in which vertical deflection is less than 20% of its length.
+
+Given: Height of the nut, acutator strength/stroke, E of chosen material, handles act as beams.
+
+Approach: The approach is displayed in the attached image. I started by considering the force load at the end of the handles, determining this would be the largest deflection. Then I proceed to consider Inertia, to which I then was able to solve for height of the beam. This allowed me to design the optimal shape of the beam. Next, I considered materials and ended up going with Alu 6061 due to its greta stiffness/weight ratio. I was then able to determine the mass.
+
+Reflection: I chose to go with a rather weak acutator, barley reaching 8lb of force. These nuts tend to be very tough, requiring a lot of force to initiate a crack. I don't believe this design to be the most realistic to use, however, if adjusted to a stronger acutator, it could become useable in the day to day activities. 
